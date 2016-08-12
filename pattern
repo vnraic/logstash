@@ -1,0 +1,4 @@
+# ASA-2-106017
+CISCOFW106017 Deny IP due to Land Attack from %{IP:srcp_ip} to %{IP:dst_ip}
+# ASA-5-304001
+CISCOFW304001 %{IP:srcp_ip} Accessed URL %{IP:dst_ip}:?(%{URI:uri}|%{URIPATH:uri})
